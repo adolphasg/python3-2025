@@ -1,6 +1,6 @@
 import os
-from pprint import pprint  # To print in a more readable format
-from datetime import datetime
+cwd = os.getcwd() 
+print("Current working directory:", cwd)
 
 def collect_file_info(path="."):
     """
