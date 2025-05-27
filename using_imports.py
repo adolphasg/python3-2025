@@ -2,6 +2,7 @@
 # 1. random – Generate random numbers
 import random
 print("Random number between 0 and 10:", random.randint(0, 10))
+import hello_world
 
 # 2. datetime – Get the current date and time
 import datetime
